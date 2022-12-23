@@ -1,15 +1,14 @@
 import React from 'react';
-
 import { Link } from 'react-router-dom';
-
-import styles from '../App.module.css';
+import styles from '../../App.module.scss';
 import cx from 'classnames';
+
 
 const Home = () => {
     return (<div className={cx(styles.grid, styles.margined)}>
-        <h1 className={styles.headingMain}>
+        <h2 className={styles.headingMain}>
             Sell Phone
-        </h1>
+        </h2>
         <div className={styles.buttonGroup}>
             <button className={styles.buttonOutlined}>
                 <Link to='/products' className={styles.link}>

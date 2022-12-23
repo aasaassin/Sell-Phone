@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 import cx from 'classnames';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
-import styles from '../App.module.css';
+import styles from '../App.module.scss';
 
 import { mobileDetails } from '../static/data';
 

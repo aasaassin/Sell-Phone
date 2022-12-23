@@ -1,6 +1,6 @@
 import React from 'react';
 import { IMobileDetails } from '../static/data';
-import styles from '../App.module.css';
+import styles from '../App.module.scss';
 import { Link } from 'react-router-dom';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
